@@ -13,7 +13,9 @@
 # solo-learn
 A library of self-supervised methods for unsupervised visual representation learning powered by PyTorch Lightning.
 We aim at providing SOTA self-supervised methods in a comparable environment while, at the same time, implementing training tricks.
-The library is self-contained, but it is possible to use the models outside of solo-learn. **More details in our [paper](#citation)**.
+The library is self-contained, but it is possible to use the models outside of solo-learn.
+And this is a fork in which I will change some hyperparameter and do some experiments, such as discretization, nonlinearity and explicitly regularization.
+ **More details in our [paper](#citation)**.
 
 ---
 
