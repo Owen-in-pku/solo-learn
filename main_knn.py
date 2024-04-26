@@ -120,6 +120,7 @@ def main():
     args = parse_args_knn()
 
     # build paths
+    #how to solve the err:"TypeError: expected str, bytes or os.PathLike object, not NoneType"
     ckpt_dir = Path(args.pretrained_checkpoint_dir)
     args_path = ckpt_dir / "args.json"
     ckpt_path = [ckpt_dir / ckpt for ckpt in os.listdir(ckpt_dir) if ckpt.endswith(".ckpt")][0]
